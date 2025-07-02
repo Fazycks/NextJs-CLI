@@ -1,6 +1,6 @@
 {
     "name": "@fazycks/nextjs-template-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CLI pour cloner des dépôts NextJS avec système d'authentification et ajout de composants",
     "main": "dist/index.js",
     "bin": {
