@@ -6,7 +6,7 @@
 
 1. Aller sur [github.com](https://github.com)
 2. Cliquer sur "New repository"
-3. Nom du dépôt: `nextjs-template-cli`
+3. Nom du dépôt: `NextJs-CLI`
 4. Description: "CLI TypeScript pour créer des projets NextJS avec système de composants"
 5. ✅ Public
 6. ❌ NE PAS initialiser avec README (on a déjà nos fichiers)
@@ -17,7 +17,7 @@
 ```bash
 # Le dépôt Git local est déjà initialisé ✅
 # Ajouter l'origine GitHub
-git remote add origin https://github.com/fazycks/nextjs-template-cli.git
+git remote add origin https://github.com/fazycks/NextJs-CLI.git
 
 # Définir la branche principale
 git branch -M main
@@ -28,7 +28,7 @@ git push -u origin main
 
 ### 3. Vérifier sur GitHub
 
--   ✅ Code visible sur https://github.com/fazycks/nextjs-template-cli
+-   ✅ Code visible sur https://github.com/fazycks/NextJs-CLI
 -   ✅ README.md s'affiche correctement
 -   ✅ LICENSE visible
 

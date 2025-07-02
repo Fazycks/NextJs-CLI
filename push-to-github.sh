@@ -9,7 +9,7 @@ if git remote get-url origin > /dev/null 2>&1; then
     echo "✅ Remote origin déjà configuré: $(git remote get-url origin)"
 else
     echo "🔗 Configuration du remote origin..."
-    git remote add origin https://github.com/fazycks/nextjs-template-cli.git
+    git remote add origin https://github.com/fazycks/NextJs-CLI.git
     echo "✅ Remote origin configuré"
 fi
 
@@ -24,7 +24,7 @@ git push -u origin main
 if [ $? -eq 0 ]; then
     echo ""
     echo "🎉 Code publié avec succès sur GitHub!"
-    echo "🔗 Dépôt: https://github.com/fazycks/nextjs-template-cli"
+    echo "🔗 Dépôt: https://github.com/fazycks/NextJs-CLI"
     echo ""
     echo "✅ Vous pouvez maintenant publier sur NPM:"
     echo "   npm login"

@@ -1,7 +1,6 @@
 # 🚀 Guide Complet de Publication
 
-## 📋 Résumé des Étapes
-
+## 📋 Résumé des Étapes- **GitHub:** https://github.com/fazycks/NextJs-CLI
 ### ✅ TERMINÉ
 
 -   [x] Code CLI développé et testé
@@ -16,7 +15,7 @@
 
     - Aller sur https://github.com/fazycks
     - "New repository"
-    - Nom: `nextjs-template-cli`
+    - Nom: `NextJs-CLI`
     - Description: `CLI TypeScript pour créer des projets NextJS avec système de composants`
     - Public ✅
     - NE PAS initialiser avec README ❌
@@ -30,7 +29,7 @@
     push-to-github.bat     # Windows
 
     # Option 2: Commandes manuelles
-    git remote add origin https://github.com/fazycks/nextjs-template-cli.git
+    git remote add origin https://github.com/fazycks/NextJs-CLI.git
     git branch -M main
     git push -u origin main
     ```

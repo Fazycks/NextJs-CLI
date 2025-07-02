@@ -1,6 +1,6 @@
 # NextJS CLI
 
-[![npm version](https://badge.fury.io/js/@fazycks%2Fnextjs-template-cli.svg)](https://badge.fury.io/js/@fazycks%2Fnextjs-template-cli) [![downloads](https://img.shields.io/npm/dt/@fazycks/nextjs-template-cli.svg)](https://www.npmjs.com/package/@fazycks/nextjs-template-cli) [![license](https://img.shields.io/npm/l/@fazycks/nextjs-template-cli.svg)](https://github.com/fazycks/nextjs-template-cli/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/@fazycks%2Fnextjs-template-cli.svg)](https://badge.fury.io/js/@fazycks%2Fnextjs-template-cli) [![downloads](https://img.shields.io/npm/dt/@fazycks/nextjs-template-cli.svg)](https://www.npmjs.com/package/@fazycks/nextjs-template-cli) [![license](https://img.shields.io/npm/l/@fazycks/nextjs-template-cli.svg)](https://github.com/fazycks/NextJs-CLI/blob/main/LICENSE)
 
 Un CLI TypeScript inspiré de ShadCN UI pour cloner des dépôts GitHub NextJS avec système d'authentification et ajout de composants.
 

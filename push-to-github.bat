@@ -10,7 +10,7 @@ if %ERRORLEVEL% equ 0 (
     git remote get-url origin
 ) else (
     echo 🔗 Configuration du remote origin...
-    git remote add origin https://github.com/fazycks/nextjs-template-cli.git
+    git remote add origin https://github.com/fazycks/NextJs-CLI.git
     echo ✅ Remote origin configuré
 )
 
@@ -25,7 +25,7 @@ git push -u origin main
 if %ERRORLEVEL% equ 0 (
     echo.
     echo 🎉 Code publié avec succès sur GitHub!
-    echo 🔗 Dépôt: https://github.com/fazycks/nextjs-template-cli
+    echo 🔗 Dépôt: https://github.com/fazycks/NextJs-CLI
     echo.
     echo ✅ Vous pouvez maintenant publier sur NPM:
     echo    npm login
