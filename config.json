@@ -1,0 +1,90 @@
+{
+    "repositories": [
+        {
+            "name": "NextJS Clean",
+            "url": "https://github.com/vercel/next-learn-starter",
+            "description": "Un template NextJS minimal et propre",
+            "isPrivate": false,
+            "requiresAuth": false
+        },
+        {
+            "name": "NextJS Advanced (Privé)",
+            "url": "https://github.com/your-org/nextjs-advanced-template",
+            "description": "Template NextJS avancé avec authentification, base de données, etc.",
+            "isPrivate": true,
+            "requiresAuth": true
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "username": "admin",
+            "email": "admin@example.com",
+            "hasPrivateAccess": true,
+            "githubToken": "ghp_your_private_token_here"
+        },
+        {
+            "id": "2",
+            "username": "user1",
+            "email": "user1@example.com",
+            "hasPrivateAccess": false
+        },
+        {
+            "id": "3",
+            "username": "developer",
+            "email": "dev@example.com",
+            "hasPrivateAccess": true,
+            "githubToken": "ghp_another_private_token"
+        }
+    ],
+    "components": [
+        {
+            "name": "nextjs-clean",
+            "displayName": "NextJS Clean Setup",
+            "description": "Configuration NextJS propre avec TypeScript et Tailwind CSS",
+            "category": "setup",
+            "isPrivate": false,
+            "requiresAuth": false,
+            "dependencies": [
+                "tailwindcss",
+                "@types/node",
+                "@types/react",
+                "@types/react-dom"
+            ],
+            "devDependencies": ["autoprefixer", "postcss"]
+        },
+        {
+            "name": "auth-system",
+            "displayName": "Authentication System",
+            "description": "Système d'authentification complet avec NextAuth.js",
+            "category": "auth",
+            "isPrivate": true,
+            "requiresAuth": true,
+            "dependencies": [
+                "next-auth",
+                "@next-auth/prisma-adapter",
+                "prisma"
+            ],
+            "devDependencies": ["@types/bcryptjs"]
+        },
+        {
+            "name": "ui-components",
+            "displayName": "UI Components Pack",
+            "description": "Pack de composants UI réutilisables avec Tailwind CSS",
+            "category": "ui",
+            "isPrivate": false,
+            "requiresAuth": false,
+            "dependencies": ["clsx", "tailwind-merge"]
+        },
+        {
+            "name": "database-setup",
+            "displayName": "Database Setup (Prisma)",
+            "description": "Configuration de base de données avec Prisma et PostgreSQL",
+            "category": "database",
+            "isPrivate": true,
+            "requiresAuth": true,
+            "dependencies": ["prisma", "@prisma/client"],
+            "devDependencies": ["prisma"]
+        }
+    ]
+}

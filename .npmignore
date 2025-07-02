@@ -1,0 +1,38 @@
+# Source TypeScript
+src/
+*.ts
+!*.d.ts
+
+# Tests
+test/
+tests/
+__tests__/
+*.test.*
+*.spec.*
+
+# Development files
+.env*
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Build artifacts
+tsconfig.json
+tsconfig.*.json
+
+# Scripts de test
+test-*.sh
+test-*.bat
+
+# Documentation de développement
+CONTRIBUTING.md
+CHANGELOG.md
