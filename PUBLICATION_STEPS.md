@@ -1,6 +1,7 @@
 # 🚀 Guide Complet de Publication
 
 ## 📋 Résumé des Étapes- **GitHub:** https://github.com/fazycks/NextJs-CLI
+
 ### ✅ TERMINÉ
 
 -   [x] Code CLI développé et testé
